@@ -1,0 +1,49 @@
+/** toute la partie article**/
+/*La page d'accueil a le droit d'avoir un style pour l'article 
+a lui tous seul à cause du penda !!, c'est juste la section h2 qui change*/
+section
+{
+    background: url('../img/fond_jaune.png');
+    color: #421818;
+	min-height : 350px;
+	min-width: 600px;
+	border-bottom: 3px solid #760001;
+	border-right: 3px solid #760001;
+	border-top-left-radius: 2em 2em;
+	border-top-right-radius: 2em 2em;
+	border-bottom-right-radius: 0em 0em;
+	border-bottom-left-radius: 0em 0em;
+	margin-top : 10px;
+	padding-top: 20px ;
+	text-indent: 50px;
+
+	
+}
+
+section h2
+{
+	font-family: 'Quadranta-Regular', Arial, serif;
+	font-size: 3em;
+	
+	
+}
+
+#ejs_photo_box
+{
+width :20%;
+}
+
+#panda
+{
+	width: 15%;
+	 margin-top: -330px;
+	padding-right:150px;
+	float:right;
+
+}
+
+article, #panda
+{
+	display: inline-block;
+    vertical-align: top;
+}

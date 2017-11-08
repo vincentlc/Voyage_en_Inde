@@ -1,0 +1,87 @@
+
+/**Style appliqué aux headers */
+header
+{
+    background: url('../img/fond_jaune.png'); 
+    color: #421818;
+	min-height : 300px;
+	min-width: 600px;
+	
+	border-bottom: 3px solid #760001;
+	border-right: 3px solid #760001;
+	border-radius: 20px;
+
+}
+
+
+
+header  h1 /* Use the font that you've just specified for the titles */
+{
+	font-family: Arial , "Arial Black","Courier New" , "Comic Sans MS";
+    font-size: 3.5em;
+	margin-top: -250px;
+	margin-left: 250px;
+	font-family: 'My_font_face', Arial, serif;
+	color: #1500F8;
+}
+#banniere_photo_voyage,#banniere_photo_accueil,#banniere_photo_divers,#banniere_photo_stage_projets , header
+{
+	display:inline-block;
+}
+
+
+#banniere_photo_voyage
+{
+	background:url('../photos/banniere_photo_voyages.JPG'); 
+	background-size:cover;
+	background-position: 0 -100px;
+}
+#banniere_photo_accueil
+{
+	background:url('../photos/banniere_photo_accueil.JPG'); 
+	background-size:cover;
+	background-position: 0 -100px;
+}
+#banniere_photo_divers
+{
+	background:url('../photos/banniere_photo_divers.JPG'); 
+	background-size:cover;
+	background-position: 0 -100px;
+}
+#banniere_photo_stage_projets
+{
+	background:url('../photos/banniere_photo_stage_projets.JPG'); 
+	background-size:cover;
+	background-position: 0 -100px;
+}
+
+/* nav ul li,header, h2
+{    
+	display: inline-block;
+} */
+	
+
+#logo, header h1
+{
+    display: block;
+    margin-bottom: 0px;
+}
+
+#logo 
+{
+	width :250px ;
+	height: 250px;
+}
+
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 1.9em;
+	margin-top: 10px;
+	margin-left: 250px;
+    font-weight: normal;
+	display: inline-block;
+	color: black;
+
+}
+

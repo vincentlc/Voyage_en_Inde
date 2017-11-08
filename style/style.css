@@ -1,0 +1,74 @@
+/* Eléments principaux de la page */
+
+body
+{
+    background: url('../img/fond_site_web_initial_16_9.png') no-repeat fixed;
+	
+    font-family: 'Sanchezregular', Arial, sans-serif;
+    color: #181818;
+	overflow: auto;/* Permet de faire du scrolling : i.e apparition de 
+	la bare de défilement*/
+}
+
+#bloc_page
+{
+    width: 95%;
+    margin: auto;
+	margin-right:50px;
+	margin-left:50px;
+}
+
+
+/* Définition des polices personnalisées */
+
+@font-face { 
+    font-family: 'My_font_face';
+    src: url('../polices/DESTROY_.ttf') format('truetype');  
+}
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('../polices/ballpark.eot');
+    src: url('../polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('../polices/ballpark.woff') format('woff'),
+         url('../polices/ballpark.ttf') format('truetype'),
+         url('../polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('../polices/dayrom.eot');
+    src: url('../polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('../polices/dayrom.woff') format('woff'),
+         url(../'polices/dayrom.ttf') format('truetype'),
+         url('../polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: 'Qualité Deluxe Platinium';
+    src: url('../polices/Qualité Deluxe Platinium.ttf') format('truetype');  
+}
+@font-face { 
+    font-family: 'Quadranta-Regular';
+    src: url('../polices/Quadranta-Regular.otf') format('truetype');  
+}
+@font-face { 
+    font-family: 'Sanchezregular';
+    src: url('../polices/Sanchezregular.otf') format('truetype');  
+}
+
+
+a
+{
+	outline: 0;		/* retirer la bordure des liens visitÃ©s et autres */
+	text-decoration:none;
+	/*color: rgb(16,35,114);*/
+}
+
+

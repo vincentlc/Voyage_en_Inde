@@ -1,0 +1,230 @@
+/** toute la partie article**/
+
+section
+{
+    background: url('../img/fond_jaune.png');
+
+	min-height : 350px;
+	min-width: 600px;
+	border-bottom: 3px solid #760001;
+	border-right: 3px solid #760001;
+	border-top-left-radius: 2em 2em;
+	border-top-right-radius: 2em 2em;
+	border-bottom-right-radius: 0em 0em;
+	border-bottom-left-radius: 0em 0em;
+	margin-top : 10px;
+	padding-top: 20px ;
+	padding-left: 20px;
+	//text-align:justify;
+	//text-indent: 30px;
+
+	
+}
+
+section h2
+{
+	font-family: 'Quadranta-Regular', Arial, serif;
+	margin-left : 30%;
+	margin-right: 30%;	
+	position:relative;
+	font-size: 3em;
+	text-align:center;
+	color : #0200FF;
+	
+}
+
+
+
+section ul p 
+{
+	padding-left: 150px;
+
+}
+
+/*Partie Sommaire du voyage*/
+#blog_section_1
+{
+   outline: 0;
+  text-decoration: none;
+}
+#blog_section 
+{
+   outline: 0;
+  text-decoration: none;
+  border:solid 1px #9aafe5;
+}
+
+article aside p 
+{
+	padding-left:50px;
+	/*margin-bottom:20px;*/
+}
+
+article aside
+{
+	width :108%;
+	/*position:relative; 	*/
+	margin-bottom: 100px;
+	overflow: auto;
+	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+section h3
+{
+	text-align: center ;
+
+}
+
+#blog_section_1,#blog_section_2,#blog_section_3	
+{
+	
+	display:inline-block;
+	border:solid 1px #9aafe5;
+	border-bottom: 3px solid #760001;
+	border-right: 3px solid #760001;
+	width: 30%;
+	text-decoration: none;
+	border-radius: 15px 15px 15px 15px;
+	color : black;
+	min-height:200px;
+	max-height :400px;	
+	margin-bottom :10px;
+
+
+}
+#blog_section_4,#blog_section_5,#blog_section_6	
+{
+	
+	display:inline-block;
+	border:solid 1px #9aafe5;
+	border-bottom: 3px solid #760001;
+	border-right: 3px solid #760001;
+	width: 30%;
+	text-decoration: none;
+	border-radius: 15px 15px 15px 15px;
+	min-height:200px;
+
+}
+
+
+
+#blog_section_1
+{
+	background : url('../photos/1.jpg')  ;
+	background-size : cover;	
+	background-position: 0 -420px;	/**Permet de décaler la photo*/
+}
+#blog_section_2
+{
+	background : url('../photos/4.JPG')  ;
+	background-size : cover;
+	background-position: 0 -40px;	/**Permet de décaler la photo*/
+}
+#blog_section_3
+{
+	background : url('../photos/2.JPG')  ;
+	background-size : cover;	
+}
+#blog_section_4
+{
+	background : url('../photos/7.JPG')  ;
+	background-size : cover;	
+	background-position: 0 -80px;	/**Permet de décaler la photo*/
+}
+#blog_section_5
+{
+	background : url('../photos/8.JPG')  ;
+	background-size : cover;	
+}
+#blog_section_6
+{
+	background : url('../photos/9.JPG')  ;
+	background-size : 100% 200%;	
+}
+
+
+aside a 
+{
+	color : white;
+
+}
+
+
+
+
+/*Partie changement de page du blog*/
+ul{ border:0; margin:0; padding:0; }
+
+#pagination-digg 
+{
+	text-indent: 0px;
+	padding-left:350px;
+	padding-top:50px;
+	Margin-bottom:50px;
+	text-align: center;
+}
+ 
+#pagination-digg li
+{
+    border:0; 
+    margin:0; 
+    padding-left:px;
+    font-size:30px;
+    list-style:none;
+    margin-right:2px;
+}
+ 
+#pagination-digg a
+{
+    border:solid 1px #9aafe5;
+    margin-right:2px;
+	border-radius: 15px 15px 15px 15px;
+}
+ 
+#pagination-digg .previous-off, #pagination-digg .next-off 
+{
+    border:solid 1px #DEDEDE;
+    color:#888888;
+    display:block;
+    float:left;
+    font-weight:bold;
+    margin-right:5px;
+    padding:1px 1px;
+	border-radius: 15px 15px 15px 15px;
+	
+}
+ 
+#pagination-digg .next a, #pagination-digg .previous a 
+{
+    font-weight:bold;
+}
+ 
+#pagination-digg .active
+{
+    background:#2e6ab1;
+    color:#FFFFFF;
+    font-weight:bold;
+    display:block;
+    float:left;
+    padding:4px 6px;
+	border-radius: 15px 15px 15px 15px;
+}
+ 
+#pagination-digg a:link, #pagination-digg a:visited 
+{
+    color:#0e509e;
+    display:block;
+    float:left;
+    padding:3px 6px;
+    text-decoration:none;
+}
+ 
+#pagination-digg a:hover
+{
+    border:solid 1px #0e509e;
+	
+}
+
+
+
+

@@ -1,0 +1,61 @@
+/*PArtie pied de page */
+
+footer
+{
+	background: url('../img/fond_jaune.png');
+	text-indent: 50px;
+}
+footer li 
+{
+	color: #421818;
+		
+}
+footer  #contact a 
+{
+	color: black;
+	font-size: 2.2em;
+	text-decoration: none;
+}
+footer #lien_photos a
+{
+	color: black;
+}
+
+#contact, #reference, #lien_photos
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+footer h2
+{
+    font-size: 2em;
+}
+
+#contact
+{
+	margin-top: 30px;
+    width: 30%;
+}
+
+#reference
+{
+    width: 30%;
+}
+#lien_photos
+{
+	width:30%;
+	font-size: 2.2em;
+	margin-top :30px;
+}
+
+

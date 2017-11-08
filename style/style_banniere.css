@@ -1,0 +1,57 @@
+/* Bannière */
+
+#banniere_photo_voyage,#banniere_photo_accueil,#banniere_photo_divers,#banniere_photo_stage_projets 
+{
+    /*margin-top: 0px;*/
+    height: 300px;
+	width:50%;
+    border-radius: 20px;
+    /*background: url(')  no-repeat;*/
+    position: absolute;
+    box-shadow: 3px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	margin-right:200px;
+	overflow: auto;
+}
+
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+	width:100%;
+    border-radius: 5px 5px 15px 15px;
+    height: 33px;
+    padding-top: 2px;
+	margin-right:10px;	
+    background-color: rgb(24,24,24); /* Pour les anciens navigateurs */
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 1em;
+	
+}
+
+.bouton_rouge
+{
+    /*display: inline-block;*/
+    height: 25px;
+    position: absolute;
+	margin-left:400px;
+	padding-left:700px;	
+	
+	
+    left: 10px;
+    background: url('../img/fond_degraderouge.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 3S0px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.bouton_rouge img
+{
+    border: 0;
+}
